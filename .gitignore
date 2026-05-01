@@ -1,0 +1,13 @@
+# emacs
+*~
+
+# vscode
+.vscode
+
+# mac
+.DS_Store
+
+# python
+__pycache__
+build
+*.egg-info

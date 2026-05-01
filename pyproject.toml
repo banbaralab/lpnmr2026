@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heulingo"
+version = "1.0"
+description = "Adaptive large neighborhood prioritized search based on answer set programming"
+authors = [
+    { name="Irumi Sugimori", email="irumi.sugimori@nagoya-u.jp" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "clingo >=5.7.1"
+]
+
+[project.optional-dependencies]
+clingo-dl = ["clingo-dl >=1.5.0"]
+clingcon = ["clingcon >=5.2.1"]
+all = ["clingo-dl >=1.5.0", "clingcon >=5.2.1"]
+
+[project.scripts]
+heulingo = "heulingo.__main__:main"
