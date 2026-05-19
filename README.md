@@ -1,4 +1,4 @@
-# heulingo
+# Supplementary Materials: Adaptive Large Neighborhood Prioritized Search for Optimization in Answer Set Programming
 
 ## Introduction
 
