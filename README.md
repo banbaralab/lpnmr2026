@@ -1,5 +1,9 @@
 # Supplementary Materials: Adaptive Large Neighborhood Prioritized Search for Optimization in Answer Set Programming
 
+## Comparison of ALNPS with the best known bounds of CB-CTT.
+
+![Table 4](table4.png)
+
 ## The heulingo solver
 
 Heulingo is an ASP-based implementation of Adaptive Large Neighborhood Prioritized Search (ALNPS)
