@@ -1,14 +1,11 @@
 # Supplementary Materials: Adaptive Large Neighborhood Prioritized Search for Optimization in Answer Set Programming
 
-## Introduction
+## The heulingo solver
 
-Heulingo is a solver for solving Combinatorial Optimization Problems (COPs)
-based on Adaptive Large Neighborhood Prioritized Search (ALNPS)
-with Answer Set Programming (ASP).
-ALNPS is a metaheuristic that 
-starts with an initial solution and then iteratively tries
-to find better solutions by alternately destroying a current solution
-and reconstructing it with prioritized search.
+Heulingo is an ASP-based implementation of Adaptive Large Neighborhood Prioritized Search (ALNPS).
+ALNPS is a metaheuristic that iteratively seeks better solutions starting from an initial solution.
+It alternates between performing  variability-guided destruction and
+prioritized search on the current solution.
 
 ## Requirements
 
