@@ -55,6 +55,14 @@ heulingo --quiet=1,0 example/tsp/tsp.lp example/tsp/instances/rand_70_300_115548
 heulingo --configuration=jumpy --opt-strategy=usc,11 --iter-configuration=tweety --iter-opt-strategy=bb,0 --iter-opt-heuristic=3 --iter-restart-on-model --init-cut-off-time=450 --iter-cut-off-time=6 --no-improvement-cutoff-threshold=2 --cut-off-time-increase-percent=5 --time-limit=3600 --quiet=1,0 example/cb-ctt/encoding/teaspoon.lp example/cb-ctt/instances/ITC-2007_asp/comp01.lp example/cb-ctt/instances/ud5.lp example/cb-ctt/configs/vg-random.lp
 ```
 
+```
+heulingo --configuration=jumpy --opt-strategy=usc,11 --iter-configuration=tweety --iter-opt-strategy=bb,0 --iter-opt-heuristic=3 --iter-restart-on-model --init-cut-off-time=450 --iter-cut-off-time=6 --no-improvement-cutoff-threshold=2 --cut-off-time-increase-percent=5 --time-limit=3600 --quiet=1,0 example/cb-ctt/encoding/teaspoon.lp example/cb-ctt/instances/ITC-2007_asp/comp01.lp example/cb-ctt/instances/ud5.lp example/cb-ctt/configs/portfolio.lp
+```
+
+```
+heulingo --configuration=jumpy --opt-strategy=usc,11 --iter-configuration=tweety --iter-opt-strategy=bb,0 --iter-opt-heuristic=3 --iter-restart-on-model --init-cut-off-time=450 --iter-cut-off-time=6 --no-improvement-cutoff-threshold=2 --cut-off-time-increase-percent=5 --time-limit=3600 --quiet=1,0 example/cb-ctt/encoding/teaspoon.lp example/cb-ctt/instances/ITC-2007_asp/comp01.lp example/cb-ctt/instances/ud5.lp example/cb-ctt/configs/vg-portfolio.lp
+```
+
 - Partner Units Problem (PUP)
 ```
 heulingo --opt-strategy=usc,3 --configuration=trendy --iter-opt-strategy=bb --init-cut-off-time=100 --iter-cut-off-time=2 --no-improvement-cutoff-threshold=2 --cut-off-time-increase-percent=5 --time-limit=600 --quiet=1,0 example/pup/encoding.lp example/pup/configs/vg-random.lp example/pup/show.lp example/pup/instances/07-partner_units_polynomial-28-0.asp
