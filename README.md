@@ -30,7 +30,7 @@ heulingo -h
 
 Heulingo accepts a COP instance in ASP fact format, an ASP encoding for COP solving,
 and an optional portfolio of ALNPS configurations.
-Here are Sample sessions for solving the traveling salesperson problem.
+Here are sample sessions for solving the traveling salesperson problem.
 
 ### clingo
 
