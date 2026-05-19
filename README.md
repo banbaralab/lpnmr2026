@@ -51,14 +51,15 @@ heulingo --quiet=1,0 example/tsp/tsp.lp example/tsp/instances/rand_70_300_115548
 ## The command lines used for the experiments in our LPNMR 2026 submission
 ---
 - Curriculum-Based Course Timetabling (CB-CTT)
+1. VG-random
 ```
 heulingo --configuration=jumpy --opt-strategy=usc,11 --iter-configuration=tweety --iter-opt-strategy=bb,0 --iter-opt-heuristic=3 --iter-restart-on-model --init-cut-off-time=450 --iter-cut-off-time=6 --no-improvement-cutoff-threshold=2 --cut-off-time-increase-percent=5 --time-limit=3600 --quiet=1,0 example/cb-ctt/encoding/teaspoon.lp example/cb-ctt/instances/ITC-2007_asp/comp01.lp example/cb-ctt/instances/ud5.lp example/cb-ctt/configs/vg-random.lp
 ```
-
+2. portfolio
 ```
 heulingo --configuration=jumpy --opt-strategy=usc,11 --iter-configuration=tweety --iter-opt-strategy=bb,0 --iter-opt-heuristic=3 --iter-restart-on-model --init-cut-off-time=450 --iter-cut-off-time=6 --no-improvement-cutoff-threshold=2 --cut-off-time-increase-percent=5 --time-limit=3600 --quiet=1,0 example/cb-ctt/encoding/teaspoon.lp example/cb-ctt/instances/ITC-2007_asp/comp01.lp example/cb-ctt/instances/ud5.lp example/cb-ctt/configs/portfolio.lp
 ```
-
+3. VG-portfolio
 ```
 heulingo --configuration=jumpy --opt-strategy=usc,11 --iter-configuration=tweety --iter-opt-strategy=bb,0 --iter-opt-heuristic=3 --iter-restart-on-model --init-cut-off-time=450 --iter-cut-off-time=6 --no-improvement-cutoff-threshold=2 --cut-off-time-increase-percent=5 --time-limit=3600 --quiet=1,0 example/cb-ctt/encoding/teaspoon.lp example/cb-ctt/instances/ITC-2007_asp/comp01.lp example/cb-ctt/instances/ud5.lp example/cb-ctt/configs/vg-portfolio.lp
 ```
